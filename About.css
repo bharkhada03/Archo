@@ -1,0 +1,1121 @@
+.AboutUs-main {
+  height: 400px;
+  width: 100%;
+  background-color: var(--Primary-Background-Color);
+}
+
+.AboutUs-Hero {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.AboutUs-Hero img {
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.AboutUs-Hero-Sub {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.561);
+}
+
+.AboutUs-Hero-Sub > h1 {
+  font-family: var(--Jost-serif);
+  font-size: 65px;
+  font-weight: 500;
+  color: var(--Primary-font-color);
+}
+
+.AboutUs-Hero-Sub > span {
+  font-family: var(--poppins-serif);
+  color: var(--Primary-font-color);
+}
+
+.AboutUs-Hero-Sub > span > strong {
+  color: var(--Secondary-font-color);
+}
+
+/* Comapny Details  */
+
+.Company-Detail-Main {
+  height: auto;
+  width: 100%;
+  padding: 100px 0px 100px 0px;
+  background-color: var(--Primary-Background-Color);
+}
+
+.Company-Detail-Sub {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Company-Detail-Sub-One {
+  height: 300px;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.All-Company-Detail {
+  height: 120px;
+  width: 45%;
+  align-content: center;
+  padding-left: 30px;
+  margin-bottom: 60px;
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.All-Company-Detail > h1 {
+  font-family: var(--Teko-serif);
+  color: var(--Secondary-font-color);
+  font-size: 48px;
+}
+
+.All-Company-Detail > span {
+  font-family: var(--poppins-serif);
+  color: var(--Primary-font-color);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.Company-Detail-Sub-Two {
+  height: 300px;
+  width: 47%;
+}
+
+.Company-Detail-Sub-Two > span {
+  font-family: var(--poppins-serif);
+  color: var(--Third-font-color);
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.Company-Detail-Sub-Two > p {
+  font-family: var(--poppins-serif);
+  color: var(--Third-font-color);
+  padding-top: 30px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* Best Features */
+
+.Best-Features-Main {
+  height: auto;
+  width: 100%;
+  background-color: var(--Primary-Background-Color);
+  padding: 50px 0px 50px 0px;
+}
+
+.Best-Features-Sub {
+  height: auto;
+  width: 100%;
+}
+
+.Best-Features-Sub-Header {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+.Best-Features-Sub-Header > h1 {
+  font-size: 120px;
+  text-transform: uppercase;
+  color: transparent;
+  letter-spacing: 17px;
+  font-family: var(--poppins-serif);
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.175);
+}
+
+.Best-Features-Sub-Header > h2 {
+  font-size: 65px;
+  margin-top: -90px;
+  font-family: var(--Jost-serif);
+  text-transform: capitalize;
+  color: var(--Primary-font-color);
+}
+
+.Best-Features-Sub-Flexs {
+  height: 450px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Best-Features-Sub-Flex {
+  height: 450px;
+  width: 30%;
+  position: relative;
+}
+
+.Best-Features-Sub-Flex img {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Best-Features-Sub-Flex-Text {
+  height: 450px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  align-content: center;
+  padding-left: 30px;
+  background-color: #272727;
+}
+
+.Best-Features-Sub-Flex-Text:hover {
+  cursor: pointer;
+  background-color: #272727b8;
+}
+
+.Best-Features-Sub-Flex-Text .IcoN {
+  font-size: 60px;
+  color: var(--Secondary-font-color);
+  margin-bottom: 30px;
+}
+
+.Best-Features-Sub-Flex-Text > h1 {
+  font-family: var(--poppins-serif);
+  color: var(--Primary-font-color);
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.Best-Features-Sub-Flex-Text > p {
+  font-family: var(--poppins-serif);
+  color: var(--Third-font-color);
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.Best-Features-Sub-Flex-Text .Link {
+  font-family: var(--poppins-serif);
+  color: var(--Primary-font-color);
+  text-transform: capitalize;
+}
+
+/* Creative Team */
+
+.Creative-Team-Main {
+  height: auto;
+  width: 100%;
+  padding: 100px 0px 60px 0px;
+  background-color: var(--Primary-Background-Color);
+}
+
+.Creative-Team-Sub {
+  height: auto;
+  width: 100%;
+}
+
+.Creative-Team-Sub-Header {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+.Creative-Team-Sub-Header > h1 {
+  font-size: 120px;
+  text-transform: uppercase;
+  color: transparent;
+  letter-spacing: 17px;
+  font-family: var(--poppins-serif);
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.175);
+}
+
+.Creative-Team-Sub-Header > h2 {
+  font-size: 65px;
+  margin-top: -90px;
+  font-family: var(--Jost-serif);
+  text-transform: capitalize;
+  color: var(--Primary-font-color);
+}
+
+.Creative-Team-Sub-Flexs {
+  height: auto;
+  width: 100%;
+  margin-top: 50px;
+  padding: 50px 30px 50px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Creative-Team-Sub-Member {
+  height: 500px;
+  width: 23%;
+}
+
+.Creative-Team-Sub-Member .MEMBER {
+  height: 400px;
+  width: 100%;
+  background-color: red;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Creative-Team-Sub-Member .MEMBER:hover img {
+  transform: scale(1.2);
+  transition: transform 0.7s ease;
+  outline: 2px solid rgb(255, 255, 255);
+}
+
+.Creative-Team-Sub-Member .MEMBER img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Creative-Team-Sub-Member > h1 {
+  font-family: var(--Jost-serif);
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  color: white;
+}
+
+.Creative-Team-Sub-Member > span {
+  font-family: var(--poppins-serif);
+  color: #c1905c;
+  font-size: 14px;
+}
+
+/* Progress Bar */
+
+.ProgressBar-Main {
+  height: auto;
+  background-color: var(--Primary-Background-Color);
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.ProgressBar-Content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+
+.ProgressBar-Left {
+  padding: 50px 0px 50px 0px;
+  flex: 1;
+}
+
+.ProgressBar-Item {
+  margin-bottom: 40px;
+}
+
+.ProgressBar-Label {
+  font-family: var(--poppins-serif);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.ProgressBar {
+  background-color: #333;
+  overflow: hidden;
+  position: relative;
+  height: 7px;
+  width: 100%;
+}
+
+.ProgressBar-Fill {
+  background-color: #c5a47e;
+  height: 100%;
+  position: relative;
+}
+
+.ProgressBar-Percentage {
+  position: absolute;
+  top: -25px;
+  right: 0;
+  font-size: 14px;
+  background-color: #d4af37;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.ProgressBar-Right {
+  flex: 1;
+  max-width: 600px;
+}
+
+.ProgressBar-Right h1 {
+  font-family: var(--Jost-serif);
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.ProgressBar-Right p {
+  font-size: 16px;
+  font-family: var(--poppins-serif);
+  margin-bottom: 15px;
+  line-height: 30px;
+  color: var(--Third-font-color);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .AboutUs-main {
+    position: relative;
+    width: 100%;
+  }
+
+  .AboutUs-Hero {
+    position: absolute;
+    left: 0;
+  }
+
+  .AboutUs-Hero-Sub > h1 {
+    font-size: 45px;
+  }
+
+  /* company detail */
+
+  .Company-Detail-Main {
+    height: 1130px;
+    width: 100%;
+    position: relative;
+  }
+
+  .Company-Detail-Sub {
+    height: 1020px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0px 20px 0px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+
+  .Company-Detail-Sub-One {
+    height: 400px;
+    width: 100%;
+  }
+
+  .All-Company-Detail {
+    width: 48%;
+    padding-left: 10px;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+
+  .All-Company-Detail > span {
+    font-size: 16px;
+  }
+
+  .Company-Detail-Sub-Two {
+    height: 600px;
+    width: 100%;
+  }
+
+  .Company-Detail-Sub-Two > span {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .Company-Detail-Sub-Two > p {
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  /* Best Features */
+
+  .Best-Features-Main {
+    position: relative;
+    height: 1700px;
+    width: 100%;
+  }
+
+  .Best-Features-Sub {
+    position: absolute;
+    height: 1580px;
+    left: 0;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .Best-Features-Sub-Header {
+    height: 100px;
+    width: 100%;
+  }
+
+  .Best-Features-Sub-Header > h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+  }
+
+  .Best-Features-Sub-Header > h2 {
+    font-size: 40px;
+    margin-top: -50px;
+  }
+
+  .Best-Features-Sub-Flexs {
+    height: 1410px;
+    width: 100%;
+    display: block;
+  }
+
+  .Best-Features-Sub-Flex {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* Creative Team */
+
+  .Creative-Team-Main {
+    position: relative;
+    height: 2300px;
+    width: 100%;
+  }
+
+  .Creative-Team-Sub {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 2300px;
+  }
+
+  .Creative-Team-Sub-Header {
+    height: 100px;
+    width: 100%;
+  }
+
+  .Creative-Team-Sub-Header > h1 {
+    font-size: 60px;
+    letter-spacing: 20px;
+  }
+
+  .Creative-Team-Sub-Header > h2 {
+    font-size: 40px;
+    margin-top: -50px;
+  }
+
+  .Creative-Team-Sub-Flexs {
+    display: block;
+    height: 2150px;
+  }
+
+  .Creative-Team-Sub-Member {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* Progress Bar */
+
+  .ProgressBar-Main {
+    position: relative;
+    height: 780px;
+    width: 100%;
+  }
+
+  .ProgressBar-Content {
+    position: absolute;
+    left: 0;
+    height: 800px;
+    width: 100%;
+    display: block;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .AboutUs-main {
+    position: relative;
+    width: 100%;
+  }
+
+  .AboutUs-Hero {
+    position: absolute;
+    left: 0;
+  }
+
+  .AboutUs-Hero-Sub > h1 {
+    font-size: 45px;
+  }
+
+  /* company detail */
+
+  .Company-Detail-Main {
+    height: 780px;
+    width: 100%;
+    position: relative;
+    background-color: re;
+  }
+
+  .Company-Detail-Sub {
+    height: 1020px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0px 20px 0px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+
+  .Company-Detail-Sub-One {
+    height: 400px;
+    width: 100%;
+  }
+
+  .All-Company-Detail {
+    width: 48%;
+    padding-left: 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.315);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.315);
+  }
+
+  .All-Company-Detail > span {
+    font-size: 16px;
+  }
+
+  .Company-Detail-Sub-Two {
+    height: 600px;
+    width: 100%;
+  }
+
+  .Company-Detail-Sub-Two > span {
+    font-size: 17px;
+    line-height: 35px;
+  }
+
+  .Company-Detail-Sub-Two > p {
+    font-size: 17px;
+    line-height: 29px;
+  }
+
+  /* Best Features */
+
+  .Best-Features-Main {
+    position: relative;
+    height: 630px;
+    width: 100%;
+  }
+
+  .Best-Features-Sub {
+    position: absolute;
+    height: 515px;
+    left: 0;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .Best-Features-Sub-Header {
+    height: 160px;
+    width: 100%;
+  }
+
+  .Best-Features-Sub-Header > h1 {
+    font-size: 100px;
+    letter-spacing: 10px;
+  }
+
+  .Best-Features-Sub-Header > h2 {
+    font-size: 65px;
+    margin-top: -90px;
+  }
+
+  .Best-Features-Sub-Flexs {
+    height: 300px;
+    width: 100%;
+  }
+
+  .Best-Features-Sub-Flex {
+    height: 200px;
+    width: 32%;
+  }
+
+  .Best-Features-Sub-Flex img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .Best-Features-Sub-Flex-Text {
+    height: 300px;
+    width: 100%;
+  }
+
+  .Best-Features-Sub-Flex-Text .IcoN {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .Best-Features-Sub-Flex-Text > h1 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .Best-Features-Sub-Flex-Text > p {
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .Best-Features-Sub-Flex-Text .Link {
+    font-size: 14px;
+  }
+
+  /* Creative Team */
+
+  .Creative-Team-Main {
+    position: relative;
+    height: 1400px;
+    width: 100%;
+  }
+
+  .Creative-Team-Sub {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1315px;
+  }
+
+  .Creative-Team-Sub-Header {
+    height: 160px;
+    width: 100%;
+  }
+
+  .Creative-Team-Sub-Header > h1 {
+    font-size: 100px;
+    letter-spacing: 10px;
+  }
+
+  .Creative-Team-Sub-Header > h2 {
+    font-size: 65px;
+    margin-top: -90px;
+  }
+
+  .Creative-Team-Sub-Flexs {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1100px;
+  }
+
+  .Creative-Team-Sub-Member {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+
+  /* Progress Bar */
+
+  .ProgressBar-Main {
+    position: relative;
+    height: 400px;
+    width: 100%;
+  }
+
+  .ProgressBar-Content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .ProgressBar-Right h1 {
+    font-size: 25px;
+  }
+
+  .ProgressBar-Right p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+
+@media only screen and (min-width: 539px) and (max-width: 540px) {
+  .AboutUs-main {
+    position: relative;
+    width: 100%;
+  }
+
+  .AboutUs-Hero {
+    position: absolute;
+    left: 0;
+  }
+
+  .AboutUs-Hero-Sub > h1 {
+    font-size: 45px;
+  }
+
+  /* company detail */
+
+  .Company-Detail-Main {
+    height: 950px;
+    width: 100%;
+    position: relative;
+  }
+
+  .Company-Detail-Sub {
+    height: 850px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0px 20px 0px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+
+  .Company-Detail-Sub-One {
+    height: 400px;
+    width: 100%;
+  }
+
+  .All-Company-Detail {
+    width: 48%;
+    padding-left: 10px;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+
+  .All-Company-Detail > span {
+    font-size: 16px;
+  }
+
+  .Company-Detail-Sub-Two {
+    height: 600px;
+    width: 100%;
+  }
+
+  .Company-Detail-Sub-Two > span {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .Company-Detail-Sub-Two > p {
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  /* Best Features */
+
+  .Best-Features-Main {
+    position: relative;
+    height: 1700px;
+    width: 100%;
+  }
+
+  .Best-Features-Sub {
+    position: absolute;
+    height: 1580px;
+    left: 0;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .Best-Features-Sub-Header {
+    height: 110px;
+    width: 100%;
+  }
+
+  .Best-Features-Sub-Header > h1 {
+    font-size: 65px;
+    letter-spacing: 10px;
+  }
+
+  .Best-Features-Sub-Header > h2 {
+    font-size: 50px;
+    margin-top: -50px;
+  }
+
+  .Best-Features-Sub-Flexs {
+    height: 1410px;
+    width: 100%;
+    display: block;
+  }
+
+  .Best-Features-Sub-Flex {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  /* Creative Team */
+
+  .Creative-Team-Main {
+    position: relative;
+    height: 2300px;
+    width: 100%;
+  }
+
+  .Creative-Team-Sub {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 2300px;
+  }
+
+  .Creative-Team-Sub-Header {
+    height: 100px;
+    width: 100%;
+  }
+
+  .Creative-Team-Sub-Header > h1 {
+    font-size: 60px;
+    letter-spacing: 20px;
+  }
+
+  .Creative-Team-Sub-Header > h2 {
+    font-size: 40px;
+    margin-top: -50px;
+  }
+
+  .Creative-Team-Sub-Flexs {
+    display: block;
+    height: 2150px;
+  }
+
+  .Creative-Team-Sub-Member {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* Progress Bar */
+
+  .ProgressBar-Main {
+    position: relative;
+    height: 780px;
+    width: 100%;
+  }
+
+  .ProgressBar-Content {
+    position: absolute;
+    left: 0;
+    height: 800px;
+    width: 100%;
+    display: block;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .AboutUs-main {
+    position: relative;
+    width: 100%;
+  }
+
+  .AboutUs-Hero {
+    position: absolute;
+    left: 0;
+  }
+
+  .AboutUs-Hero-Sub > h1 {
+    font-size: 45px;
+  }
+
+  /* company detail */
+
+  .Company-Detail-Main {
+    height: 780px;
+    width: 100%;
+    position: relative;
+    background-color: re;
+  }
+
+  .Company-Detail-Sub {
+    height: 1020px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0px 20px 0px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+
+  .Company-Detail-Sub-One {
+    height: 400px;
+    width: 100%;
+  }
+
+  .All-Company-Detail {
+    width: 48%;
+    padding-left: 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.315);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.315);
+  }
+
+  .All-Company-Detail > span {
+    font-size: 16px;
+  }
+
+  .Company-Detail-Sub-Two {
+    height: 600px;
+    width: 100%;
+  }
+
+  .Company-Detail-Sub-Two > span {
+    font-size: 17px;
+    line-height: 35px;
+  }
+
+  .Company-Detail-Sub-Two > p {
+    font-size: 17px;
+    line-height: 29px;
+  }
+
+  /* Best Features */
+
+  .Best-Features-Main {
+    position: relative;
+    height: 630px;
+    width: 100%;
+  }
+
+  .Best-Features-Sub {
+    position: absolute;
+    height: 515px;
+    left: 0;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .Best-Features-Sub-Header {
+    height: 160px;
+    width: 100%;
+  }
+
+  .Best-Features-Sub-Header > h1 {
+    font-size: 100px;
+    letter-spacing: 10px;
+  }
+
+  .Best-Features-Sub-Header > h2 {
+    font-size: 65px;
+    margin-top: -90px;
+  }
+
+  .Best-Features-Sub-Flexs {
+    height: 300px;
+    width: 100%;
+  }
+
+  .Best-Features-Sub-Flex {
+    height: 200px;
+    width: 32%;
+  }
+
+  .Best-Features-Sub-Flex img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .Best-Features-Sub-Flex-Text {
+    height: 300px;
+    width: 100%;
+  }
+
+  .Best-Features-Sub-Flex-Text .IcoN {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .Best-Features-Sub-Flex-Text > h1 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .Best-Features-Sub-Flex-Text > p {
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .Best-Features-Sub-Flex-Text .Link {
+    font-size: 14px;
+  }
+
+  /* Creative Team */
+
+  .Creative-Team-Main {
+    position: relative;
+    height: 1400px;
+    width: 100%;
+  }
+
+  .Creative-Team-Sub {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1315px;
+  }
+
+  .Creative-Team-Sub-Header {
+    height: 160px;
+    width: 100%;
+  }
+
+  .Creative-Team-Sub-Header > h1 {
+    font-size: 100px;
+    letter-spacing: 10px;
+  }
+
+  .Creative-Team-Sub-Header > h2 {
+    font-size: 65px;
+    margin-top: -90px;
+  }
+
+  .Creative-Team-Sub-Flexs {
+    display: flex;
+    flex-wrap: wrap;
+    height: 1100px;
+  }
+
+  .Creative-Team-Sub-Member {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+
+  /* Progress Bar */
+
+  .ProgressBar-Main {
+    position: relative;
+    height: 400px;
+    width: 100%;
+  }
+
+  .ProgressBar-Content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .ProgressBar-Right h1 {
+    font-size: 25px;
+  }
+
+  .ProgressBar-Right p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}

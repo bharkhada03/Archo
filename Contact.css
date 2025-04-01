@@ -1,0 +1,422 @@
+.Contact-Main {
+  height: 400px;
+  width: 100%;
+  background-color: var(--Primary-Background-Color);
+}
+
+.Contact-Hero {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  background-color: red;
+  overflow: hidden;
+}
+
+.Contact-Hero img {
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Contact-Hero-Sub {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.561);
+}
+
+.Contact-Hero-Sub > h1 {
+  font-family: var(--Jost-serif);
+  font-size: 65px;
+  font-weight: 500;
+  color: var(--Primary-font-color);
+}
+
+.Contact-Hero-Sub > span {
+  font-family: var(--poppins-serif);
+  color: var(--Primary-font-color);
+}
+
+.Contact-Hero-Sub > span > strong {
+  color: var(--Secondary-font-color);
+}
+
+.Contact-info-main {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--Primary-Background-Color);
+}
+
+.Contact-info-sub {
+  height: 170px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Contact-flex {
+  height: 170px;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  background-color: #212121;
+}
+
+.contact-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.Contact-flex > h1 {
+  font-size: 25px;
+  font-weight: 300;
+  color: var(--Secondary-font-color);
+  font-family: var(--Teko-serif);
+}
+
+.Contact-flex > span {
+  font-size: 15px;
+  color: var(--Third-font-color);
+  font-family: var(--poppins-serif);
+}
+
+.Address-Main {
+  height: 550px;
+  width: 100%;
+  display: flex;
+  background-color: var(--Primary-Background-Color);
+}
+
+.Address-Main .Map {
+  height: 550px;
+  width: 50%;
+}
+
+.Address-Main .Form {
+  height: 550px;
+  width: 50%;
+  align-content: center;
+  overflow: hidden;
+  background-color: var(--Primary-Background-Color);
+}
+
+.Form-Full-name {
+  height: 50px;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+}
+
+.Form-Full-name input {
+  height: 50px;
+  width: 100%;
+  font-family: var(--poppins-serif);
+  font-size: 17px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.Form-Email {
+  height: 50px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: 1px solid white;
+}
+
+.Form-Email input {
+  height: 50px;
+  width: 100%;
+  font-family: var(--poppins-serif);
+  color: white;
+  font-size: 17px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.Form-Textarea {
+  height: 100px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.Form-Textarea textarea {
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
+  font-family: var(--poppins-serif);
+  font-size: 17px;
+  border: none;
+  color: white;
+  scroll-behavior: smooth;
+  border-bottom: 1px solid white;
+  outline: none;
+  resize: none;
+}
+
+.Form-Btn {
+  height: 50px;
+  width: 25%;
+  margin-top: 20px;
+  margin-left: 68px;
+  border: none;
+  outline: none;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: var(--Jost-serif);
+  background-color: var(--Secondary-font-color);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .Contact-Main {
+    position: relative;
+    width: 100%;
+  }
+
+  .Contact-Hero {
+    position: absolute;
+    left: 0;
+  }
+
+  .Contact-Hero-Sub > h1 {
+    font-size: 45px;
+  }
+
+  .Contact-info-main {
+    height: 900px;
+    width: 100%;
+    position: relative;
+  }
+
+  .Contact-info-sub {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    margin-top: 90px;
+    height: 710px;
+    width: 100%;
+    display: block;
+  }
+
+  .Contact-flex {
+    height: 220px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .Address-Main {
+    height: 1030px;
+    display: block;
+  }
+
+  .Address-Main .Map {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .Address-Main .Form {
+    height: 450px;
+    width: 100%;
+  }
+
+  .Form-Full-name {
+    width: 90%;
+  }
+
+  .Form-Email {
+    width: 90%;
+  }
+
+  .Form-Textarea {
+    width: 90%;
+  }
+
+  .Form-Btn {
+    margin-left: 20px;
+    height: 60px;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .Contact-Main {
+    position: relative;
+    width: 100%;
+  }
+
+  .Contact-Hero {
+    position: absolute;
+    left: 0;
+  }
+
+  .Contact-Hero-Sub > h1 {
+    font-size: 45px;
+  }
+
+  .Contact-info-main {
+    height: 280px;
+    width: 100%;
+    position: relative;
+  }
+
+  .Contact-info-sub {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    margin-top: 50px;
+    height: 180px;
+    width: 100%;
+  }
+
+  .Contact-flex {
+    height: 130px;
+    width: 31%;
+    padding-left: 10px;
+  }
+
+  .contact-icon {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .Contact-flex > h1 {
+    font-size: 22px;
+  }
+
+  .Contact-flex > span {
+    font-size: 12px;
+  }
+
+  .Address-Main {
+    height: 600px;
+  }
+
+  .Address-Main .Map {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .Address-Main .Form {
+    height: 580px;
+    width: 100%;
+  }
+
+  .Form-Full-name {
+    width: 90%;
+  }
+
+  .Form-Email {
+    width: 90%;
+  }
+
+  .Form-Textarea {
+    width: 90%;
+  }
+
+  .Form-Btn {
+    margin-left: 20px;
+    height: 60px;
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .Contact-Main {
+    position: relative;
+    width: 100%;
+  }
+
+  .Contact-Hero {
+    position: absolute;
+    left: 0;
+  }
+
+  .Contact-Hero-Sub > h1 {
+    font-size: 45px;
+  }
+
+  .Contact-info-main {
+    height: 280px;
+    width: 100%;
+    position: relative;
+  }
+
+  .Contact-info-sub {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    margin-top: 50px;
+    height: 180px;
+    width: 100%;
+  }
+
+  .Contact-flex {
+    height: 130px;
+    width: 31%;
+    padding-left: 10px;
+  }
+
+  .contact-icon {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .Contact-flex > h1 {
+    font-size: 22px;
+  }
+
+  .Contact-flex > span {
+    font-size: 12px;
+  }
+
+  .Address-Main {
+    height: 600px;
+  }
+
+  .Address-Main .Map {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .Address-Main .Form {
+    height: 580px;
+    width: 100%;
+  }
+
+  .Form-Full-name {
+    width: 90%;
+  }
+
+  .Form-Email {
+    width: 90%;
+  }
+
+  .Form-Textarea {
+    width: 90%;
+  }
+
+  .Form-Btn {
+    margin-left: 20px;
+    height: 60px;
+    width: 60%;
+  }
+}

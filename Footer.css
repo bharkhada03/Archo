@@ -1,0 +1,629 @@
+/* (480px, 768px, 1024px, 1280px)  */
+
+footer {
+  position: relative;
+  height: 500px;
+  background-color: var(--Primary-Background-Color);
+  padding: 25px;
+}
+
+.Footer {
+  height: 450px;
+  background-color: #151515;
+  display: flex;
+  padding: 0px 50px 0px 50px;
+  justify-content: space-between;
+}
+
+.Footer-Contact {
+  position: relative;
+  margin-top: 50px;
+  height: 400px;
+  width: 30%;
+}
+
+.Footer-Contact h1 {
+  font-family: var(--Jost-serif);
+  color: var(--Primary-font-color);
+  font-size: 25px;
+  font-weight: 500;
+}
+.Footer-Information {
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer-Information .Footer-Information-Icon-Box {
+  height: 80px;
+  width: 20%;
+}
+
+.Footer-Information .Footer-Information-Icon-Box .Footer-Information-Icon {
+  font-size: 23px;
+  color: var(--Primary-font-color);
+}
+
+.Footer-Information .Footer-Information-Text {
+  height: 80px;
+  width: 80%;
+}
+
+.Footer-Information .Footer-Information-Text h3 {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--Primary-font-color);
+  font-family: var(--poppins-serif);
+}
+
+.Footer-Information .Footer-Information-Text h2 {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--Third-font-color);
+  font-family: var(--poppins-serif);
+}
+
+.Footer-News {
+  height: 400px;
+  width: 30%;
+  margin-top: 50px;
+}
+
+.Footer-Archo-Info {
+  height: 400px;
+  width: 30%;
+  margin-top: 50px;
+}
+
+/* Recent News */
+
+.Footer-News h1 {
+  font-family: var(--Jost-serif);
+  color: var(--Primary-font-color);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.Footer-Information .Footer-Information-Icon-Box img {
+  height: 60px;
+  width: 100%;
+  object-fit: cover;
+  align-content: center;
+}
+
+.Footer-Information-Text h4 {
+  font-family: var(--poppins-serif);
+  color: var(--Third-font-color);
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+.Footer-Information-Text h5 {
+  font-family: var(--poppins-serif);
+  color: var(--Secondary-font-color);
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 7px;
+  padding-left: 15px;
+}
+
+.Type-Email {
+  height: 60px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 35px;
+  outline: 1px solid rgba(255, 255, 255, 0.185);
+  display: flex;
+  justify-content: space-between;
+}
+
+.Email {
+  height: 60px;
+  width: 80%;
+  text-align: center;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+.Email input {
+  height: 60px;
+  width: 100%;
+  background-color: transparent;
+  padding-left: 10px;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  font-size: 17px;
+  color: white;
+  border: none;
+  outline: none;
+  font-family: var(--poppins-serif);
+}
+
+.Email-Btn {
+  height: 60px;
+  width: 17%;
+  border-radius: 50%;
+  text-align: center;
+  align-content: center;
+  background-color: var(--Secondary-font-color);
+}
+
+.Email-Arrow {
+  font-size: 25px;
+  color: white;
+}
+
+/* Archo-Info */
+
+.Footer-Archo-Info h1 {
+  font-family: var(--Jost-serif);
+  color: var(--Primary-font-color);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.Social-Icons-Box {
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+}
+
+.Social-Icons {
+  height: 60px;
+  width: 18%;
+  border-radius: 50%;
+  outline: 1px solid rgba(255, 255, 255, 0.185);
+  text-align: center;
+  align-content: center;
+}
+
+.ICON {
+  font-size: 16px;
+  color: white;
+}
+
+.Copy-Right {
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.Copy-Right h1 {
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  footer {
+    height: 1400px;
+    padding: 25px 0px 0px 0px;
+    text-align: start;
+  }
+
+  .Footer {
+    height: 1400px;
+    width: 100%;
+    display: block;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .Footer-Contact {
+    height: 320px;
+    width: 100%;
+  }
+
+  .Footer-Information .Footer-Information-Text {
+    text-align: start;
+  }
+
+  /* footer news */
+
+  .Footer-News {
+    height: 320px;
+    width: 100%;
+  }
+
+  /* Archo Info */
+
+  .Footer-Archo-Info {
+    height: 360px;
+    width: 100%;
+  }
+
+  .Social-Icons-Box {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  footer {
+    height: 1100px;
+    position: relative;
+    width: 100%;
+  }
+
+  .Footer {
+    position: absolute;
+    height: 1100px;
+    width: 100%;
+    left: 0;
+    padding: 15px;
+  }
+
+  .Footer-Contact {
+    width: 30%;
+  }
+
+  .Footer-Contact h1 {
+    font-size: 25px;
+  }
+  .Footer-Information {
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Footer-Information .Footer-Information-Icon-Box {
+    height: 80px;
+    width: 20%;
+  }
+
+  .Footer-Information .Footer-Information-Icon-Box .Footer-Information-Icon {
+    font-size: 23px;
+  }
+
+  .Footer-Information .Footer-Information-Text {
+    height: 80px;
+    width: 80%;
+  }
+
+  .Footer-Information .Footer-Information-Text h3 {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .Footer-Information .Footer-Information-Text h2 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .Footer-News {
+    height: 400px;
+    width: 30%;
+    margin-top: 50px;
+  }
+
+  .Footer-Archo-Info {
+    height: 400px;
+    width: 30%;
+    margin-top: 50px;
+  }
+
+  /* Recent News */
+
+  .Footer-News h1 {
+    font-size: 25px;
+  }
+
+  .Footer-Information .Footer-Information-Icon-Box img {
+    height: 60px;
+    width: 100%;
+    object-fit: cover;
+    align-content: center;
+  }
+
+  .Footer-Information-Text h4 {
+    font-size: 12px;
+  }
+
+  .Footer-Information-Text h5 {
+    font-size: 12px;
+  }
+
+  .Type-Email {
+    height: 50px;
+    width: 100%;
+  }
+
+  .Email {
+    height: 60px;
+  }
+
+  .Email input {
+    height: 60px;
+    font-size: 12px;
+  }
+
+  .Email-Btn {
+    height: 50px;
+    width: 22%;
+  }
+
+  .Email-Arrow {
+    font-size: 25px;
+  }
+
+  /* Archo-Info */
+
+  .Footer-Archo-Info h1 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .Social-Icons-Box {
+    height: 50px;
+  }
+
+  .Social-Icons {
+    height: 40px;
+    width: 18%;
+  }
+
+  .ICON {
+    font-size: 14px;
+  }
+
+  .Copy-Right {
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .Copy-Right h1 {
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 27px;
+  }
+}
+
+@media only screen and (min-width: 539px) and (max-width: 540px) {
+  footer {
+    height: 1400px;
+    padding: 25px 0px 0px 0px;
+    text-align: start;
+  }
+
+  .Footer {
+    height: 1400px;
+    width: 100%;
+    display: block;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .Footer-Contact {
+    height: 320px;
+    width: 100%;
+  }
+
+  .Footer-Information .Footer-Information-Text {
+    text-align: start;
+  }
+
+  /* footer news */
+
+  .Footer-News {
+    height: 320px;
+    width: 100%;
+  }
+
+  .Type-Email {
+    height: 70px;
+  }
+
+  .Email {
+    height: 80px;
+  }
+
+  .Email input {
+    height: 80px;
+    font-size: 19px;
+  }
+
+  .Email-Btn {
+    height: 70px;
+    width: 15%;
+  }
+  .Footer-Information .Footer-Information-Icon-Box {
+    text-align: center;
+  }
+
+  .Footer-Information .Footer-Information-Icon-Box .Footer-Information-Icon {
+    font-size: 25px;
+  }
+
+  .Footer-Information .Footer-Information-Text h3 {
+    font-size: 15px;
+  }
+
+  .Footer-Information .Footer-Information-Text h2 {
+    font-size: 16px;
+  }
+
+  .Footer-Information-Text h4 {
+    font-size: 15px;
+  }
+
+  .Footer-Information-Text h5 {
+    font-size: 14px;
+  }
+
+  /* Archo Info */
+
+  .Footer-Archo-Info {
+    height: 360px;
+    width: 100%;
+  }
+
+  .Social-Icons-Box {
+    height: 100px;
+    justify-content: space-between;
+  }
+
+  .Social-Icons {
+    height: 80px;
+    width: 15%;
+  }
+
+  .ICON {
+    font-size: 20px;
+  }
+  .Copy-Right h1 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  footer {
+    height: 1350px;
+    position: relative;
+    width: 100%;
+  }
+
+  .Footer {
+    position: absolute;
+    height: 1350px;
+    width: 100%;
+    left: 0;
+    padding: 15px;
+  }
+
+  .Footer-Contact {
+    width: 30%;
+  }
+
+  .Footer-Contact h1 {
+    font-size: 25px;
+  }
+  .Footer-Information {
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Footer-Information .Footer-Information-Icon-Box {
+    height: 80px;
+    width: 20%;
+  }
+
+  .Footer-Information .Footer-Information-Icon-Box .Footer-Information-Icon {
+    font-size: 23px;
+  }
+
+  .Footer-Information .Footer-Information-Text {
+    height: 80px;
+    width: 80%;
+  }
+
+  .Footer-Information .Footer-Information-Text h3 {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .Footer-Information .Footer-Information-Text h2 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .Footer-News {
+    height: 400px;
+    width: 30%;
+    margin-top: 50px;
+  }
+
+  .Footer-Archo-Info {
+    height: 400px;
+    width: 30%;
+    margin-top: 50px;
+  }
+
+  /* Recent News */
+
+  .Footer-News h1 {
+    font-size: 25px;
+  }
+
+  .Footer-Information .Footer-Information-Icon-Box img {
+    height: 60px;
+    width: 100%;
+    object-fit: cover;
+    align-content: center;
+  }
+
+  .Footer-Information-Text h4 {
+    font-size: 12px;
+  }
+
+  .Footer-Information-Text h5 {
+    font-size: 12px;
+  }
+
+  .Type-Email {
+    height: 50px;
+    width: 100%;
+  }
+
+  .Email {
+    height: 60px;
+  }
+
+  .Email input {
+    height: 60px;
+    font-size: 12px;
+  }
+
+  .Email-Btn {
+    height: 50px;
+    width: 22%;
+  }
+
+  .Email-Arrow {
+    font-size: 25px;
+  }
+
+  /* Archo-Info */
+
+  .Footer-Archo-Info h1 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .Social-Icons-Box {
+    height: 80px;
+  }
+
+  .Social-Icons {
+    height: 60px;
+    width: 20%;
+  }
+
+  .ICON {
+    font-size: 14px;
+  }
+
+  .Copy-Right {
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .Copy-Right h1 {
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 27px;
+  }
+}

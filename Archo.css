@@ -1,0 +1,64 @@
+/* Teko Font Style For Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");
+
+/* Jost Font Style */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap");
+
+/* Poppins Font Style */
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 1343px;
+  margin: 0 auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--Secondary-font-color);
+  height: 10px;
+  cursor: pointer;
+}
+
+:root {
+  /*  Font-Family */
+
+  --Teko-serif: "Teko", serif;
+  --poppins-serif: "Poppins", serif;
+  --Jost-serif: "Jost", serif;
+
+  /* Font-Color */
+
+  --Primary-font-color: #ffffff;
+  --Secondary-font-color: #c5a47e;
+  --Third-font-color: rgb(159, 159, 159);
+
+  /* Background Color */
+
+  --Primary-Background-Color: #181818;
+}
